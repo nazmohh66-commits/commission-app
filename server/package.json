@@ -1,33 +1,13 @@
 {
   "name": "server",
   "version": "1.0.0",
-
-  // ======================
-  // 1. PROJECT INFO
-  // ======================
   "description": "Commission App Backend Server",
-
-  // ======================
-  // 2. ENTRY FILE
-  // ======================
   "main": "server.js",
-
-  // ======================
-  // 3. MODULE TYPE
-  // ======================
   "type": "commonjs",
-
-  // ======================
-  // 4. SCRIPTS (RUN COMMANDS)
-  // ======================
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-
-  // ======================
-  // 5. PRODUCTION DEPENDENCIES
-  // ======================
   "dependencies": {
     "express": "^5.2.1",
     "mongoose": "^8.18.0",
@@ -36,17 +16,9 @@
     "jsonwebtoken": "^9.0.2",
     "bcryptjs": "^3.0.3"
   },
-
-  // ======================
-  // 6. DEVELOPMENT DEPENDENCIES
-  // ======================
   "devDependencies": {
     "nodemon": "^3.1.10"
   },
-
-  // ======================
-  // 7. NODE VERSION (RENDER SAFE)
-  // ======================
   "engines": {
     "node": ">=18"
   }
